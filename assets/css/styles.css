@@ -119,6 +119,7 @@ flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
+  flex-direction: column;
 }
 
 .wrapper .content .notepad .note-content .notes .c5 .category .cat {
@@ -128,6 +129,7 @@ flex-wrap: wrap;
   color: var(--text-color);
   font-weight: 500;
   user-select: none;
+  width: 150px;
   cursor: pointer;
 }
 
