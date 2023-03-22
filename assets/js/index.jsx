@@ -80,7 +80,7 @@ save_btn.addEventListener("click", () => { //save button onclick
             </div>
         </div>`    
     }, 2000);
-});/*
+});
 window.addEventListener("load", () => {
     textarea.value = tdoo.Header;
     input.value = tdoo.Body;
@@ -105,7 +105,7 @@ window.addEventListener("load", () => {
                 </div>
             </div>
         </div>`
-}); */
+}); 
 color_red.addEventListener("click", function(event) {
     console.log(event.target);
     textarea.classList.add("red");
